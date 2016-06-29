@@ -1,0 +1,9 @@
+<?php
+	if(!file_exists('.htaccess')){
+		include('./Install/form.php');
+	}
+	else
+	{
+		include('./Include/mainController.php');
+	}
+?>
